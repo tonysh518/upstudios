@@ -1,0 +1,5 @@
+#
+# Apache/PHP/Drupal settings:
+#
+AddType video/mp4 .mp4
+AddType video/webm .webm

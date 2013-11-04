@@ -1,0 +1,117 @@
+html, body {height:100%;padding:0;margin:0;overflow:hidden;}
+body {background:url(../img/bg.jpg) no-repeat 0 100% fixed;background-size:100% auto;font-family: 'Gill Sans', Arial; }
+ul {margin:0;padding:0;list-style: none;}
+a {text-decoration: none;}
+.clearfix {
+    *zoom : 1;
+}
+.clearfix::after {
+    content : ' ';
+    display : block;
+    clear   : both;
+    height  : 0;
+}
+
+header {position: absolute;top:0;z-index:100;width:100%;}
+header .lang {position: absolute;right:20px;top:45px;}
+header .lang a {color:#fff;}
+header nav {width:900px;height:40px;margin:10px auto 0 auto;}
+header nav a {color:#fff;text-transform: uppercase;float:left;margin:35px 35px 0;font-size:20px;}
+header nav a:hover,header nav a.active {color:#fffc00;text-shadow: 2px 2px 15px #ffd800;filter: dropshadow(color=#fffc00, offx=0, offy=0);}
+header nav .logo {float:left;cursor:pointer;margin:0 39px;}
+section {height:100%;width:100%;position: absolute;top:0;left:0;display:none;}
+.about_wrap {text-align:justify;width:800px;height:80%;padding:0 20px;margin:0 auto;padding-top:7%;color:#fff;font-size:1.6em;line-height:130%;text-shadow: 2px 2px 0px #3774b9;filter: dropshadow(color=#2d6cb2, offx=0, offy=0);}
+.about_wrap h3 {background:url(../img/whatup.png) no-repeat;width:392px;height:124px;text-indent:-999em;margin:0 auto;}
+.about_wrap h5 {text-align:center;color:#fffc00;margin:50px 0 10px 0;font-size:1.2em;}
+.about_wrap p {text-align: justify;}
+#section1 {display: block;}
+#section1 footer {position:absolute;bottom:0;width:100%;background:#fff;height:165px;}
+#about_cube_wrap {position: relative;width:800px;height:100%;perspective: 1000px;-webkit-perspective: 1000px;}
+#about_cube { width:800px;height:60%;position: absolute;}
+#about_cube_face1 {position:absolute;width:100%;height:100%;}
+#about_cube_face2 {position:absolute;width:100%;height:100%;display:none;}
+.csstransforms3d #about_cube.cube-3d {
+    transform-style:preserve-3d;-moz-transform-style:preserve-3d;-webkit-transform-style:preserve-3d;
+    -webkit-transition:   all 0.5s ease;-moz-transition:  all 0.5s ease;-o-transition:  all 0.5s ease;-ms-transition:  all 0.5s ease;transition:  all 0.5s ease;transform:translateZ( -400px ) rotateY(0deg);-webkit-transform:translateZ( -400px ) rotateY(0deg);}
+.csstransforms3d #about_cube.cube-3d #about_cube_face1 {backface-visibility: hidden;-moz-backface-visibility: hidden; -webkit-backface-visibility:hidden;transform:rotateY(0deg) translate3d(0px,0px,400px);-webkit-transform:rotateY(0deg) translateZ( 400px );}
+.csstransforms3d #about_cube.cube-3d #about_cube_face2 {backface-visibility: hidden;-moz-backface-visibility: hidden; -webkit-backface-visibility:hidden;display:block;transform:rotateY(90deg) translate3d(0px,0px,400px);-webkit-transform:rotateY(90deg) translateZ( 400px );}
+.csstransforms3d #about_cube.turn {transform:translateZ(-400px) rotateY(-90deg);-webkit-transform:translateZ(-400px) rotateY(-90deg);}
+
+
+.portfolio_wrap {max-width:1280px;width:100%;height:60%;overflow:hidden;margin:0 auto;padding-top:10%;position: relative;}
+.portfolio_wrap .star1 {position: absolute;left:10%;}
+.portfolio_wrap .star2 {position: absolute;left:0;top:-5%;}
+.star_animation {background:url(../img/star.png) no-repeat;width:800px;height:600px;position: absolute;left:0;display:none;}
+.protfolio_item {width:100%;height:90%;position: absolute;display:none;}
+.protfolio_item .gallery {margin-top:15px;}
+.protfolio_item .gallery a {width:29%;float:left;border:3px solid #fff;box-shadow:0 0 10px #000;margin:0 5px;}
+.protfolio_item .gallery a img {width:100%;display:block;border:none;}
+.portfolio_wrap .left {float:left;width:55%;height:100%;text-align:right;}
+.portfolio_wrap .left img {margin-left:0;margin-top:-5%;height:80%;width:auto;max-width:98%;}
+.portfolio_wrap .right {float:right;width:36%;height:100%;margin-right:4%;color:#fff;line-height:150%;text-align: justify;font-size:1.2em;}
+.portfolio_wrap .right h3 {color:#fffc00;font-size:1.4em;text-align: left;background:url(../img/portfolio_title_bg.png) no-repeat right bottom;padding:0 0 35px 0;margin-bottom:0;}
+.portfolio_wrap .right .link {font-weight: bold;text-align:center;margin:20px 0 0;font-size:1.2em;}
+.portfolio_wrap .right .link a {color:#fffc00;}
+
+#section2 footer {position:absolute;bottom:0;width:100%;background:#fff;height:154px;}
+.friends {width:960px;margin:-50px auto 0 auto;}
+.friends li {float:left;margin:0 20px;text-align: center;color:#003886;width:120px;}
+.friends li div {margin:5px 0 0;}
+.friends li:hover div, .friends li.active div {margin:20px 0 0;}
+.friends li a {display:inline-block;overflow:hidden;-webkit-border-radius: 100px;border-radius: 100px;border:10px solid #fff;background:#fff;width:80px;height:80px;}
+.friends li a:hover,.friends li.active a {border-color:#fdffd9;-webkit-box-shadow:0 0 40px 0px #fff958;box-shadow:0 0 40px 0px #fff958;-moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);}
+.friends li a img {width:100%;-webkit-border-radius: 100px;border-radius: 100px;}
+
+#section1 .friends {width:328px;}
+
+#section3 {overflow:auto;height:88%;top:12%;}
+#section3 .copyright {position:relative;margin:50px 0 0;}
+
+.careers_wrap {max-width:960px;width:100%;margin:0 auto;padding:0;color:#fff;font-size:1.4em;line-height:140%;text-align:justify ;}
+.careers_wrap h3 {text-align: center;color:#fffc00;}
+.careers_wrap a {color:#fffc00;}
+.careers_list {margin:40px 0 0;}
+.careers_item {margin:10px 0 0;}
+.careers_header {cursor:pointer;background:url(../img/career_bg.png);text-align:center;text-indent:-3em;padding:7px 10px;}
+.careers_header span {line-height:130%;float:right;text-indent:0;font-size:11px;text-align: left;background:url(../img/career_arrow1.png) no-repeat 0 5px;padding:0 0 0 25px;}
+.careers_header:hover {color:#fffc00;}
+.careers_header.active span {background:url(../img/career_arrow2.png) no-repeat 0 9px;padding:0 0 0 30px;}
+.careers_body {background:url(../img/career_bg2.png);font-size:0.7em;height:0;overflow:hidden;}
+.careers_body li {list-style:disc;margin:0 0 0 20px;}
+.careers_body h5 {font-size:1.1em;margin-bottom:5px;}
+.careers_body .close {background:url(../img/career_arrow3.png) no-repeat center;height:30px;width:100%;cursor:pointer;}
+.careers_body_inner {padding:20px 40px 0 40px;}
+
+
+#section4 footer {position:absolute;padding:0 0 20px 0;width:100%;}
+.contact_wrap {max-width:800px;width:100%;height:60%;margin:0 auto;padding-top:10%;}
+.contact_wrap h3 {color:#fffc00;margin:0 0 60px 0;text-align: justify;}
+.form_control {background: url(../img/form_bg.png) repeat-y;color:#fff;margin:10px 0;padding:10px 0;}
+.form_control label {float:left;width:150px;text-align:right;margin:0 20px 0 0;}
+.form_control input {background:none;border:none;width:400px;margin:2px 0 0;color:#fff;font-size:0.8em;}
+.form_control textarea {background:none;border:none;resize:none;width:400px;height:200px;margin:1px 0 0;color:#fff;font-size:0.8em;}
+.form_control label.error {display:block;float:none;width:400px;margin:0 0 0 170px;text-align: left;color:#fffc00;font-size:0.9em;}
+.contact_form .submit {background:url(../img/submit.png) no-repeat right;width:100px;height:30px;line-height:30px;color:#fff;display:block;margin:0 auto;font-size:1em;text-transform: uppercase;}
+.contact_form .form-thanks {text-align:center;font-size:1.3em;color:#fffc00;display:none;}
+.form_submit {background:none;}
+
+.careers_header,
+.friends li div,a
+{-webkit-transition:all ease .5s;
+    -moz-transition:all ease .5s;
+    -o-transition:all ease .5s;
+    transition:all ease .5s;}
+
+.copyright {text-align: center;color:#60b5fe;font-size:0.8em;margin:20px 0 0; bottom: 10px;position: absolute;width:100%;}
+
+.intro_video {width:100%;height:100%;position: fixed;top:0;left:0;z-index:999;background:#2b7ecd url(../img/loading2.gif) no-repeat center;text-align: center;}
+.intro_video video {width:auto;height:100%;top:0;left:0;z-index:999;}
+
+
+#loading-mask {width:100%;height:100%;background:#2b7ecd;position: fixed;z-index:99999;top:0;left:0;text-align: center;}
+#process-bar {border-top:1px solid #fff;margin:25px 0;}
+#process-num {color:#fff;text-align: center;}
