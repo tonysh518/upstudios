@@ -244,7 +244,7 @@
             <div class="careers_header"><span>SEE COMPIETE<br />INFORMATION</span>Marketing & Sales Manager</div>
             <div class="careers_body">
                 <div class="careers_body_inner">
-                    <h5>Job Descriptions</h5>
+                    <h5>Job Description</h5>
                     <ul>
                         <li>Work in marketing team, and accept professional training. Promote brand via cooperation with all kinds of partners, including medias, press, film producers, artists, and APP developers.</li>
                     </ul>
@@ -276,7 +276,7 @@
             <div class="careers_header"><span>SEE COMPIETE<br />INFORMATION</span>Translator (of mainly literature works or scripts)</div>
             <div class="careers_body">
                 <div class="careers_body_inner">
-                    <h5>Job Descriptions</h5>
+                    <h5>Job Description</h5>
                     <ul>
                         <li>Translate and refine writing in English and Chinese.</li>
                         <li>Translate and write scripts.</li>
@@ -314,7 +314,7 @@
             <div class="careers_header"><span>SEE COMPIETE<br />INFORMATION</span>Key Animator</div>
             <div class="careers_body">
                 <div class="careers_body_inner">
-                    <h5>Job Descriptions</h5>
+                    <h5>Job Description</h5>
                     <ul>
                         <li>Create key frames. </li>
                     </ul>
@@ -344,7 +344,7 @@
             <div class="careers_header"><span>SEE COMPIETE<br />INFORMATION</span>3D Lighter and Render</div>
             <div class="careers_body">
                 <div class="careers_body_inner">
-                    <h5>Job Descriptions</h5>
+                    <h5>Job Description</h5>
                     <ul>
                         <li>Create evocative and believable lighting for 3D sets and animation and rendering.
                         </li>
@@ -377,7 +377,7 @@
             <div class="careers_header"><span>SEE COMPIETE<br />INFORMATION</span>Animation Modeler</div>
             <div class="careers_body">
                 <div class="careers_body_inner">
-                    <h5>Job Descriptions</h5>
+                    <h5>Job Description</h5>
                     <ul>
                         <li>Create CG models and apply textures to characters, buildings and props.</li>
                     </ul>
@@ -407,7 +407,7 @@
             <div class="careers_header"><span>SEE COMPIETE<br />INFORMATION</span>Creative Writer (Chinese)</div>
             <div class="careers_body">
                 <div class="careers_body_inner">
-                    <h5>Job Descriptions</h5>
+                    <h5>Job Description</h5>
                     <ul>
                         <li>Independently write and/or edit children’s animation scripts.</li>
                         <li>Write series synopsis, dramatic plots, and compelling dialogue that matches the character personalities.</li>
@@ -443,7 +443,7 @@
             <div class="careers_header"><span>SEE COMPIETE<br />INFORMATION</span>Digital Content Creator and Editor</div>
             <div class="careers_body">
                 <div class="careers_body_inner">
-                    <h5>Job Descriptions</h5>
+                    <h5>Job Description</h5>
                     <ul>
                         <li>Responsible for collecting information and images, editing and proofreading the content on the websites.</li>
                         <li>Responsible for website management and growing traffic numbers for our company's various websites.</li>
@@ -486,7 +486,7 @@
             <div class="careers_header"><span>SEE COMPIETE<br />INFORMATION</span>Flash Animator</div>
             <div class="careers_body">
                 <div class="careers_body_inner">
-                    <h5>Job Descriptions</h5>
+                    <h5>Job Description</h5>
                     <ul>
                         <li>Design and create Flash animation.</li>
                         <li>Composite Flash animation.</li>
@@ -523,7 +523,7 @@
             <div class="careers_header"><span>SEE COMPIETE<br />INFORMATION</span>Special Effects Designer (Adobe AE Specialist)</div>
             <div class="careers_body">
                 <div class="careers_body_inner">
-                    <h5>Job Descriptions</h5>
+                    <h5>Job Description</h5>
                     <ul>
                         <li>Responsible for animation post-production.</li>
                     </ul>
@@ -558,7 +558,7 @@
             <div class="careers_header"><span>SEE COMPIETE<br />INFORMATION</span>3D Animation Project Manager</div>
             <div class="careers_body">
                 <div class="careers_body_inner">
-                    <h5>Job Descriptions</h5>
+                    <h5>Job Description</h5>
                     <ul>
                         <li>Supervise production and manage timeline and production workflow of an animation project from beginning
                             to completion.</li>
@@ -595,7 +595,7 @@
             <div class="careers_header"><span>SEE COMPIETE<br />INFORMATION</span>Rigger (Maya specialist)</div>
             <div class="careers_body">
                 <div class="careers_body_inner">
-                    <h5>Job Descriptions</h5>
+                    <h5>Job Description</h5>
                     <ul>
                         <li>Rig characters, sets and props with Maya.</li>
                     </ul>

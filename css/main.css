@@ -20,10 +20,10 @@ header nav a {color:#fff;text-transform: uppercase;float:left;margin:35px 35px 0
 header nav a:hover,header nav a.active {color:#fffc00;text-shadow: 2px 2px 15px #ffd800;filter: dropshadow(color=#fffc00, offx=0, offy=0);}
 header nav .logo {float:left;cursor:pointer;margin:0 39px;}
 section {height:100%;width:100%;position: absolute;top:0;left:0;display:none;}
-.about_wrap {text-align:justify;width:800px;height:80%;padding:0 20px;margin:0 auto;padding-top:7%;color:#fff;font-size:1.6em;line-height:130%;text-shadow: 2px 2px 0px #3774b9;filter: dropshadow(color=#2d6cb2, offx=0, offy=0);}
+.about_wrap {text-align:left;width:800px;height:80%;padding:0 20px;margin:0 auto;padding-top:7%;color:#fff;font-size:1.6em;line-height:130%;text-shadow: 2px 2px 0px #3774b9;filter: dropshadow(color=#2d6cb2, offx=0, offy=0);}
 .about_wrap h3 {background:url(../img/whatup.png) no-repeat;width:392px;height:124px;text-indent:-999em;margin:0 auto;}
 .about_wrap h5 {text-align:center;color:#fffc00;margin:50px 0 10px 0;font-size:1.2em;}
-.about_wrap p {text-align: justify;}
+.about_wrap p {text-align: left;}
 #section1 {display: block;}
 #section1 footer {position:absolute;bottom:0;width:100%;background:#fff;height:165px;}
 #about_cube_wrap {position: relative;width:800px;height:100%;perspective: 1000px;-webkit-perspective: 1000px;}
@@ -48,7 +48,7 @@ section {height:100%;width:100%;position: absolute;top:0;left:0;display:none;}
 .protfolio_item .gallery a img {width:100%;display:block;border:none;}
 .portfolio_wrap .left {float:left;width:55%;height:100%;text-align:right;}
 .portfolio_wrap .left img {margin-left:0;margin-top:-5%;height:80%;width:auto;max-width:98%;}
-.portfolio_wrap .right {float:right;width:36%;height:100%;margin-right:4%;color:#fff;line-height:150%;text-align: justify;font-size:1.2em;}
+.portfolio_wrap .right {float:right;width:36%;height:100%;margin-right:4%;color:#fff;line-height:150%;text-align: left;font-size:1.2em;}
 .portfolio_wrap .right h3 {color:#fffc00;font-size:1.4em;text-align: left;background:url(../img/portfolio_title_bg.png) no-repeat right bottom;padding:0 0 35px 0;margin-bottom:0;}
 .portfolio_wrap .right .link {font-weight: bold;text-align:center;margin:20px 0 0;font-size:1.2em;}
 .portfolio_wrap .right .link a {color:#fffc00;}
@@ -89,7 +89,7 @@ section {height:100%;width:100%;position: absolute;top:0;left:0;display:none;}
 
 #section4 footer {position:absolute;padding:0 0 20px 0;width:100%;}
 .contact_wrap {max-width:800px;width:100%;height:60%;margin:0 auto;padding-top:10%;}
-.contact_wrap h3 {color:#fffc00;margin:0 0 60px 0;text-align: justify;}
+.contact_wrap h3 {color:#fffc00;margin:0 0 60px 0;text-align: left;}
 .form_control {background: url(../img/form_bg.png) repeat-y;color:#fff;margin:10px 0;padding:10px 0;}
 .form_control label {float:left;width:150px;text-align:right;margin:0 20px 0 0;}
 .form_control input {background:none;border:none;width:400px;margin:2px 0 0;color:#fff;font-size:0.8em;}
